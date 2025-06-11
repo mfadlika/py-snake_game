@@ -13,7 +13,7 @@ class Scoreboard(Turtle):
             self.high_score = int(data.read())
         self.color("white")
         self.penup()
-        self.goto(0, 270)
+        self.goto(0, 295)
         self.hideturtle()
         self.update_scoreboard()
 
